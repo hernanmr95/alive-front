@@ -1,0 +1,157 @@
+/* RESETS */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+*:focus {
+  outline: 3px dashed #228bec;
+  outline-offset: 0;
+}
+html {
+  font: 62.5% / 1.15 sans-serif;
+}
+h1,
+h2 {
+  margin-bottom: 0;
+}
+
+button {
+  border: none;
+  margin: 0;
+  padding: 0;
+  width: auto;
+  overflow: visible;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  line-height: normal;
+  -webkit-font-smoothing: inherit;
+  -moz-osx-font-smoothing: inherit;
+  -webkit-appearance: none;
+}
+button::-moz-focus-inner {
+  border: 0;
+}
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+}
+button,
+input {
+  overflow: visible;
+}
+input[type="text"] {
+  border-radius: 0;
+}
+body {
+  width: 100%;
+  margin: 0 auto;
+  font: 1.6rem/1.25 Arial, sans-serif;
+  background-color: #488148;
+  color: #4d4d4d;
+}
+@media screen and (min-width: 620px) {
+  body {
+    font-size: 1.9rem;
+    line-height: 1.31579;
+  }
+}
+
+.solo-card {
+  text-align: center;
+  border: 4px solid #c8c8c8;
+  border-radius: 2px;
+  background-color:#ffffff;
+  margin: 5px;
+}
+
+.solo-card > p {
+  padding: 0px;
+}
+
+.card-header {
+  background-color:rgb(228, 228, 228);
+  display: block;
+  padding-top: 1px;
+  height: 60px;
+}
+
+.grid-total {
+  text-align: center;
+  display: grid;
+  margin-top: 30px;
+  grid-template-columns: repeat(auto-fill, 200px);
+  gap: 5px;
+  justify-content: center;
+}
+
+.form {
+  border-radius: 10px;
+  padding: 10px;
+  padding-left: 30px;
+  margin: 2% 20%;
+  background-color: #c4e1ad
+}
+
+.form-content {
+  margin-left: 10%;
+}
+
+.inputs-form {
+  margin-left: 10px;
+  margin-top: 5px;
+  width: 70%;
+}
+
+.submit {
+  background-color: rgb(34, 103, 44);
+  border: solid 2px black;
+  border-radius:5px;
+  color: white;
+  font-family: Verdana;
+  font-size: 1.5rem;
+  padding: 7px 30px;
+  margin: 20px;
+  margin-left: 3cm;
+}
+
+.title {
+  text-align: center;
+  color: white;
+  padding: 8px;
+  padding-bottom: 20px;
+  background-color:rgb(25, 51, 29);
+  font-family:'Courier New', Courier, monospace;
+  font-size: 1.3rem;
+}
+
+.form-title {
+  font-size: 2.5rem;
+  font-family: Tahoma;
+  font-weight: 250;
+  color:rgb(26, 87, 35);
+  margin-bottom: 10px;
+}
+
+.pass-form {
+  margin-top: 30px;
+  text-align: center
+}
+
+.footer {
+  color: black; 
+  text-align: right;
+  font-size: 1.5rem;
+  margin-right: 20px;
+}
+
+#pass {
+  text-align: right;
+}
